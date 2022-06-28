@@ -1,17 +1,14 @@
-#header {
-  width: 100vw;
-  height: 100vh;
-}
-
 .header__background {
   background-image: linear-gradient(
     to right,
     rgba(255, 255, 255, 1),
     rgba(255, 255, 255, 0)
   );
+  background-size: 59.7% 100%;
+  background-repeat: no-repeat;
   width: 59.7%;
   height: 31.9%;
-  margin-top: 12rem;
+  margin-top: 10%;
   padding: 2rem 0;
 }
 
@@ -23,8 +20,7 @@
   font-size: 48px;
   font-weight: 500;
   font-style: italic;
-  /* line-height: 36px; */
-  color: var(--color-primary);
+  color: var(--color-primary-variant);
 }
 
 .header__background span,
@@ -32,33 +28,27 @@ h4 {
   color: var(--color-text);
   font-size: 32px;
   font-style: italic;
-  line-height: 44px;
+  line-height: 30px;
 }
 
 .header__banner {
   background-image: url('../../assets/background/Shape_68.png');
   background-color: white;
-  background-size: 27rem 107px;
+  background-size: 37% 100%;
   background-repeat: no-repeat;
   border-radius: 8px;
-  width: 65rem;
-  height: 6.8rem;
-  margin-top: 15rem;
+  min-width: 55%;
+  margin-top: 10%;
 }
 
 .banner__title {
   color: var(--color-light);
-  font-size: 19.23px;
+  /* font-size: 19.23px; */
   font-weight: 700;
-  text-align: center;
 }
 
 .banner__title span {
-  color: var(--color-primary);
-}
-
-.banner__text {
-  line-height: 24px;
+  color: var(--color-primary-variant);
 }
 
 .banner__text > h3 {
@@ -71,10 +61,4 @@ h4 {
   font-size: 18px;
   font-weight: 400;
   color: var(--color-white);
-}
-
-.form__name,
-.form__email {
-  width: 35%;
-  height: 4.9%;
 }

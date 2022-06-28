@@ -14,18 +14,33 @@
 :root {
   --color-text: #3f3f3f;
   --color-primary: #8bc540;
+  --color-primary-variant: #85bf3a;
   --color-white: #fff;
   --color-light: #6d6e70;
   --color-bg: #f5f5f5;
 
-  /* --container-width-lg: 75%;
-  --container-width-md: 86%;
-  --container-width-sm: 90%; */
+  --container-width-lg: 40%;
+  --container-width-md: 65%;
+  --container-width-sm: 83%;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   background: url('./assets/background/Layer_54_copy.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100vw 100vh;
+}
+
+@media screen and (max-width: 1024px) {
+  .container_ {
+    width: var(--container-width-md);
+  }
+}
+
+/* Media Queries */
+/* Small Device */
+@media screen and (max-width: 600px) {
+  .container_ {
+    width: var(--container-width-sm);
+  }
 }
